@@ -3,95 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Business Tutoring</title>
-    <style>
-        :root {
-            --main-color: #004d7a;
-            --accent-color: #ffcc00;
-            --background-color: #f4f4f4;
-            --text-color: #333;
-            --font-family: 'Arial', sans-serif;
-        }
-        body {
-            font-family: var(--font-family);
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
-        nav {
-            background-color: var(--main-color);
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        .hero {
-            background: url('hero-image.jpg') no-repeat center center/cover;
-            height: 70vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .stats, .about, .specialties, .trial-lessons {
-            padding: 20px;
-            text-align: center;
-        }
-        .footer {
-            background-color: var(--main-color);
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2em;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Professional Business Tutoring Website</title>
 </head>
 <body>
     <nav>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#specialties">Specialties</a>
-        <a href="#trial-lessons">Trial Lesson</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#specialties">Specialties</a></li>
+            <li><a href="#trial">Trial Lesson</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <section class="hero">
-        <h1>Welcome to Professional Business Tutoring</h1>
+
+    <section id="hero">
+        <h1>Welcome to Professional Tutoring</h1>
+        <p>Your success is our priority.</p>
     </section>
-    <section class="stats">
-        <h2>Our Stats</h2>
-        <p>Over 1000 successful students!</p>
+
+    <section id="stats">
+        <h2>Our Achievements</h2>
+        <p>Over 1000+ students taught.</p>
+        <p>95% satisfaction rate.</p>
     </section>
-    <section class="about" id="about">
+
+    <section id="about">
         <h2>About Us</h2>
-        <p>We offer tailored business tutoring for IB, IGCSE, and A-Level students.</p>
+        <p>We are dedicated to providing exceptional tutoring services tailored to your needs.</p>
     </section>
-    <section class="specialties" id="specialties">
+
+    <section id="specialties">
         <h2>Our Specialties</h2>
         <ul>
-            <li>IB Business Management</li>
-            <li>IGCSE Business Studies</li>
-            <li>A-Level Economics</li>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>Business Studies</li>
+            <li>Language Arts</li>
         </ul>
     </section>
-    <section class="trial-lessons" id="trial-lessons">
-        <h2>Trial Lessons</h2>
-        <p>Sign up for a trial lesson today!</p>
+
+    <section id="trial">
+        <h2>Trial Lesson</h2>
+        <p>Sign up for a free trial lesson today!</p>
     </section>
-    <footer class="footer">
-        <p>&copy; 2026 Professional Business Tutoring. All Rights Reserved.</p>
+
+    <footer>
+        <p>&copy; 2026 Professional Tutoring. All rights reserved.</p>
     </footer>
 </body>
 </html>
